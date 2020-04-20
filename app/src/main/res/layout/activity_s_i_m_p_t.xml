@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5FAD7"
+    tools:context=".SIMPT">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819"
+        app:srcCompat="@drawable/stay1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="416dp"
+        android:text="Sintomas comunes: \n\-Fiebre. \n\-Cansancio o Fatiga. \n\-Tos seca.
+\n\ \n\Sintomas que tambien se pueden presentar en algunos casos: \n\-Dolor corporal y molestias en las articulaciones.
+\n\-Congestion nasal. \n\-Secreciones nasales. \n\-Molestias en la garganta. \n\-Diarrea.
+\n\ \n\ \n\ES IMPORTANTE RECORDAR QUE ALGUNAS PERSONAS SON ASINTOMATICAS AL CONTAGIO DEL VIRUS POR LO QUE ES IMPORTANTE PROTEGERSE Y TOMAR LAS PRECAUCIONES NECESARIAS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
